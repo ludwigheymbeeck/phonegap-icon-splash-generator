@@ -27,7 +27,10 @@ $convert "$1" -resize 50x50 "$3/res/icon/bada-wac/icon-50-type3.png"
 $convert "$1" -resize 80x80 "$3/res/icon/blackberry/icon-80.png"
 $convert "$1" -resize 57x57 "$3/res/icon/ios/icon-57.png"
 $convert "$1" -resize 72x72 "$3/res/icon/ios/icon-72.png"
+$convert "$1" -resize 76x76 "$3/res/icon/ios/icon-76.png" # added for iOS 7 iPad standard resolution
+$convert "$1" -resize 120x120 "$3/res/icon/ios/icon-120.png" # added for iOS 7 iPhone high resolution
 $convert "$1" -resize 144x144 "$3/res/icon/ios/icon-72-2x.png"
+$convert "$1" -resize 152x152 "$3/res/icon/ios/icon-152.png" # added for iOS 7 iPad high resolution
 $convert "$1" -resize 114x114 "$3/res/icon/ios/icon-57-2x.png"
 $convert "$1" -resize 64x64 "$3/res/icon/webos/icon-64.png"
 $convert "$1" -resize 48x48 "$3/res/icon/windows-phone/icon-48.png"
